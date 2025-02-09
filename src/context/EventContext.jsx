@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import axios from "axios";
 import { AuthContext } from "./AuthContext";
 
-const socket = io("http://localhost:5000"); // Adjust backend URL if needed
+const socket = io(import.meta.env.VITE_API_URL); // Adjust backend URL if needed
 
 // Create Context
 export const EventContext = createContext();

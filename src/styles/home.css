@@ -1,7 +1,7 @@
 .home-container {
   height: 400px;
   width: auto;
-  background-image: url("../../public/header.jpg");
+  background-image: url("/header.jpg");
   background-size: cover;
 }
 
