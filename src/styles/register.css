@@ -1,0 +1,85 @@
+.regsiter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: transparent;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #cccacc;
+  border-radius: 12px;
+  padding: 10px 20px;
+  width: 320px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+label {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #cccacc;
+  border-radius: 12px;
+}
+
+.register-btn {
+  background-color: #ffacde;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-redirection {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+@media screen and (max-width: 320px) {
+  .input-container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 640px) {
+  .input-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .input-container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+}

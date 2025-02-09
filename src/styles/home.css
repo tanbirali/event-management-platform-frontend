@@ -1,0 +1,27 @@
+.home-container {
+  height: 400px;
+  width: auto;
+  background-image: url("../../public/header.jpg");
+  background-size: cover;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.header-title {
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+  margin-top: 40px;
+}
+
+.header-subtitle {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}

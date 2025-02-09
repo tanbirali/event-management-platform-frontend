@@ -1,0 +1,15 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin: 15px;
+}
+
+.create-event-btn {
+  margin-top: 10px;
+  border-radius: 12px;
+  background-color: #fcfcfc;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px 10px;
+}

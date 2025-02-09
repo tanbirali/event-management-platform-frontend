@@ -1,0 +1,84 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: transparent;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #cccacc;
+  border-radius: 12px;
+  padding: 10px 20px;
+  width: 320px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+label {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.login-btn {
+  background-color: #ffacde;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.register-redirection {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.password-input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 5px;
+}
+.password-input {
+  width: 90%;
+  border: none;
+}
+.password-input:focus {
+  /* stroke: none; */
+  outline: none;
+}
+.password-toggle-btn {
+  border-radius: 10px;
+  background: none;
+  margin: auto;
+  /* background-color: #ffacde; */
+  /* color: white; */
+}
+
+@media screen and (max-width: 320px) {
+  .input-container {
+    width: 80%;
+  }
+}
